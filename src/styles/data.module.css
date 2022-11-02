@@ -1,0 +1,37 @@
+.titleBox{
+    display:flex;
+    flex-direction:column;
+    width:800px;
+    justify-content: center;
+    /* margin-left: rem; */
+    /* border: 2px solid red; */
+}
+.title{
+    /* background-color: red; */
+    color: #0b9ace;
+    font-size: 40px;
+    font-family: Poppins;
+
+}
+.content{
+    color: #fff;
+    font-size: 20px;
+}
+@media only screen  and (max-width: 425px) {
+    .titleBox{
+        width:fit-content;
+      
+    }
+    .title{
+        /* background-color: red; */
+        color: #0b9ace;
+        font-size: 30px;
+        font-family: Poppins;
+    
+    }
+    .content{
+        color: #fff;
+        font-size: 15px;
+    }
+
+}

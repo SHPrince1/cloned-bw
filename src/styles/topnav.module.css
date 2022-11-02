@@ -1,0 +1,41 @@
+.topNavBox{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.emailBox{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding: 26px;
+}
+
+.emailBox p{
+   
+    padding: 8px 0;
+    margin: 0 auto;
+}
+
+
+/*  */
+
+@media only screen  and (max-width: 425px) {
+    .topNavBox{
+        flex-direction:column;
+        justify-content: center;
+        padding: 10px 0px;
+        margin: 0 auto;
+    }
+    .emailBox{
+        display: flex;
+        justify-content: center;
+        /* gap:10px; */
+        padding: 10px 40px;
+    }
+    
+
+    .imgBox{
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}

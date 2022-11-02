@@ -1,0 +1,9 @@
+.parentBox{
+    background-color: #02202f;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
