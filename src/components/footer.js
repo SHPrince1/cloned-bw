@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
     <div className={style.parentBox}>
-        <p>Copyright 2022 Bankers Warehouse Limited . All Rights Reserved. SHPrince</p>
+        <p>Copyright 2022 Bankers Warehouse Limited . All Rights Reserved. SHPrince.</p>
     </div>
     </>
   )
