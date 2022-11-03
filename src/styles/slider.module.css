@@ -99,3 +99,12 @@
 .btn a {
     text-decoration: none;
 }
+
+
+@media only screen  and (max-width: 425px) {
+  .carouselArrowRight,
+.carouselArrowLeft {
+  display: none;
+}
+
+}
