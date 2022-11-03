@@ -5,7 +5,7 @@ import slideStyle from "../styles/slider.module.css";
 
 const Slider = ({ images }) => {
   const [current, setCurrent] = useState(0);
-  const [autoPlay, SetautoPlay] = useState(true);
+  // const [autoPlay, SetautoPlay] = useState(true);
 
   let timeOut = null;
   useEffect(() => {
