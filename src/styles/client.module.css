@@ -14,7 +14,7 @@
     /* width: 900px; */
 }
 
-@media only screen  and (max-width: 425px) {
+@media only screen  and (min-width : 320px)  and (max-width: 425px){
     .slideBox{
         /* border: 2px solid black; */
        padding: 0px 30px;

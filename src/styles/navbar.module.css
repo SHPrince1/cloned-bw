@@ -93,7 +93,7 @@
 
 
 /* MEDIA QUERY */
-@media only screen  and (max-width: 425px) {
+@media only screen  and (min-width : 320px)  and (max-width: 425px) {
     .buger{
         display:flex;
         /* border: 1px solid red; */

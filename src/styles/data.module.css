@@ -17,7 +17,7 @@
     color: #fff;
     font-size: 20px;
 }
-@media only screen  and (max-width: 425px) {
+@media (min-width : 320px)  and (max-width: 425px) {
     .titleBox{
         width:fit-content;
       
