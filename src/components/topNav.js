@@ -4,6 +4,7 @@ import mainLogo from "../images/bwlogo.png";
 
 import {AiOutlineMail } from "react-icons/ai";
 import {MdCall} from "react-icons/md";
+import './App.css';
 
 const TopNav = () => {
   return (
