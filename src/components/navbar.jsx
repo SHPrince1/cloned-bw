@@ -26,49 +26,49 @@ const Navbar = () => {
             </li>
 
             <div className={NavStyle.dropDown}>
-              <a href="#" className={NavStyle.subMenu}>
+              <a href="/" className={NavStyle.subMenu}>
                 WHO WE ARE
               </a>
               <div className={NavStyle.dropdownContent}>
-                <a className={NavStyle.dropdownLinks} href="#">
+                <a className={NavStyle.dropdownLinks} href="/">
                   Link 1
                 </a>
-                <a className={NavStyle.dropdownLinks} href="#">
+                <a className={NavStyle.dropdownLinks} href="">
                   Link 2
                 </a>
-                <a href="#" className={NavStyle.dropdownLinks}>
+                <a href="/" className={NavStyle.dropdownLinks}>
                   Link 3
                 </a>
-                <a href="#" className={NavStyle.dropdownLinks}>
+                <a href="/" className={NavStyle.dropdownLinks}>
                   Link 4
                 </a>
               </div>
             </div>
             <div className={NavStyle.dropDown}>
-              <a href="#" className={NavStyle.subMenu}>
+              <a href="/" className={NavStyle.subMenu}>
                 OUR SERVICES
               </a>
               <div className={NavStyle.dropdownContent}>
-                <a href="#" className={NavStyle.dropdownLinks}>
+                <a href="/" className={NavStyle.dropdownLinks}>
                   Link 1
                 </a>
-                <a href="#" className={NavStyle.dropdownLinks}>
+                <a href="/" className={NavStyle.dropdownLinks}>
                   Link 2
                 </a>
-                <a href="#" className={NavStyle.dropdownLinks}>
+                <a href="/" className={NavStyle.dropdownLinks}>
                   Link 3
                 </a>
-                <a href="#" className={NavStyle.dropdownLinks}>
+                <a href="/" className={NavStyle.dropdownLinks}>
                   Link 4
                 </a>
               </div>
             </div>
 
             <li>
-              <a href="#news">RISK MANAGEMENT & INSURANCE</a>
+              <a href="/">RISK MANAGEMENT & INSURANCE</a>
             </li>
             <li>
-              <a href="#news">CONTACT</a>
+              <a href="/">CONTACT</a>
             </li>
           </ul>
         </nav>

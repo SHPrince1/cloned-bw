@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <div className={style.contactBox}>
         <div className={style.contactDiv}>
-          <a className={style.ContactLink}>Contact Us</a>
+          <a href="#" className={style.ContactLink}>Contact Us</a>
         </div>
       </div>
     </>

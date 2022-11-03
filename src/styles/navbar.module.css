@@ -132,4 +132,21 @@
     .SIcon{
         margin-right: 3rem;
     }
+    .dropDown:hover .dropdownContent{
+   
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: -3px;
+        width: 200px;
+        height: 150px;
+        padding: 10px 10px;
+        line-height: 30px;
+        justify-content: center;
+        background-color: #02202f;
+        /* color: #fff; */
+        transition-delay: .3s;
+       
+        
+    }
 };
