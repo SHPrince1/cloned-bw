@@ -3,7 +3,7 @@ import Style from "../styles/services.module.css";
 import { BsCash } from "react-icons/bs";
 import { FaBox } from "react-icons/fa";
 import { GiSewingMachine, GiSolarSystem } from "react-icons/gi";
-import { MdBluetoothAudio } from "react-icons/md";
+// import { MdBluetoothAudio } from "react-icons/md";
 const Services = () => {
   return (
     <>
@@ -32,7 +32,7 @@ const Services = () => {
                   </p>
                 </div>
 
-                <a href="#" className={Style.seeMore}>
+                <a href="/" className={Style.seeMore}>
                   SEE MORE
                 </a>
               </div>
@@ -53,7 +53,7 @@ const Services = () => {
                     </p>
                   </div>
 
-                  <a href="#" className={Style.seeMore}>
+                  <a href="/" className={Style.seeMore}>
                     SEE MORE
                   </a>
                 </div>
@@ -75,7 +75,7 @@ const Services = () => {
                   </p>
                 </div>
 
-                <a href="#" className={Style.seeMore}>
+                <a href="/" className={Style.seeMore}>
                   SEE MORE
                 </a>
               </div>

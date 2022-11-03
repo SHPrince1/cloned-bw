@@ -33,7 +33,7 @@ const Navbar = () => {
                 <a className={NavStyle.dropdownLinks} href="/">
                   Link 1
                 </a>
-                <a className={NavStyle.dropdownLinks} href="">
+                <a className={NavStyle.dropdownLinks} href="/">
                   Link 2
                 </a>
                 <a href="/" className={NavStyle.dropdownLinks}>

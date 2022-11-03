@@ -54,7 +54,7 @@ const Slider = ({ images }) => {
             &rsaquo;
           </div>
 
-         <a href="#" className={slideStyle.btn} >See More </a>
+         <a href="/" className={slideStyle.btn} >See More </a>
         </div>
       </div>
     </>
