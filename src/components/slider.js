@@ -9,8 +9,7 @@ const Slider = ({ images }) => {
 
   let timeOut = null;
   useEffect(() => {
-    timeOut =
-      autoPlay &&
+   
       setTimeout(() => {
         SlideRight();
       }, 10000);
