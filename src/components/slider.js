@@ -7,7 +7,7 @@ const Slider = ({ images }) => {
   const [current, setCurrent] = useState(0);
   // const [autoPlay, SetautoPlay] = useState(true);
 
-  let timeOut = null;
+  // let timeOut = null;
   useEffect(() => {
    
       setTimeout(() => {
@@ -31,7 +31,7 @@ const Slider = ({ images }) => {
               <div
                 key={index}
                 className={
-                  index == current
+                  index === current
                     ? slideStyle.caroCardActive
                     : slideStyle.caroCard
                 }

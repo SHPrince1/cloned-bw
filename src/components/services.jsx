@@ -95,7 +95,7 @@ const Services = () => {
                     </p>
                   </div>
 
-                  <a href="#" className={Style.seeMore}>
+                  <a href="/" className={Style.seeMore}>
                     SEE MORE
                   </a>
                 </div>
