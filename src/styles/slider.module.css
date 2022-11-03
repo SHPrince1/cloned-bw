@@ -9,6 +9,11 @@
   width: 100%;
   max-width: 100%;
 }
+.topNavBox{
+  display: flex;
+  justify-content: space-around !important;
+  padding: 10px 0;
+}
 .cardWrapper {
   position: relative;
   width: 100%;

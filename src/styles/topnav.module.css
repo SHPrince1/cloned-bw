@@ -1,8 +1,9 @@
 .topNavBox{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around !important;
     padding: 10px 0;
 }
+
 .emailBox{
     display: flex;
     justify-content: center;
