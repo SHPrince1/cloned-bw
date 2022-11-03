@@ -15,7 +15,11 @@
     padding: 16px 0px;
     border-radius: 10px;
     margin: 0 auto;
+    text-decoration: none;
     
+}
+.contactDiv{
+    padding: 30px;
 }
 /* .contactDiv{
     background-color: blue;

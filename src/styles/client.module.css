@@ -1,6 +1,8 @@
 .hTitle{
     display: flex;
     justify-content: center;
+    padding: 10px 0;
+    margin-top: 30px;
 }
 .slideBox{
     /* border: 2px solid black; */
