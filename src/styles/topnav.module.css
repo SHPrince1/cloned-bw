@@ -1,5 +1,6 @@
 .topNavBox{
     display: flex;
+    flex-direction: row!important;
     justify-content: space-around !important;
     padding: 10px 0;
 }
