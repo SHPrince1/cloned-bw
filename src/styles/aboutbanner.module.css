@@ -1,0 +1,18 @@
+.bannerBox{
+    
+    background-image: url(../images/bwbuilding.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 320px;    
+    font-size: 15px;
+    
+    color: #fff;
+   
+
+}
+.bannerBox h1{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}

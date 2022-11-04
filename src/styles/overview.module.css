@@ -1,0 +1,101 @@
+.row{
+    display: flex;
+    gap: 0px;
+    padding: 60px 190px;
+    /* border: 2px solid red; */
+}
+.textBox{
+    /* border: 1px solid red; */
+    padding: 10px 40px;
+    width: 580px;
+}
+.textBox p{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.imgBox{
+    /* border: 1px solid blue; */
+    padding: 10px 90px;
+    width: 670px;
+}
+.imgBox p{
+    font-size: 15px;
+    padding: 0px 0;
+
+}
+.tobe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgPart{
+    display: flex;
+}
+.contentBoxs{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    margin: 130px 20px;
+}
+.focus{
+    height: 20px;
+    width: 20px;
+    background-color: #5472d2;
+    border-radius: 2px;
+}
+.excel{
+    height: 20px;
+    width: 20px;
+    background-color: #5aa1e3;
+    border-radius: 2px;
+}
+.integrity{
+    height: 20px;
+    width: 20px;
+    background-color: #00c1cf;
+    border-radius: 2px;
+}
+
+.boxText{
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 10px;
+}
+
+@media only screen  and (min-width : 320px)  and (max-width: 425px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 20px 0px;
+    }
+
+    .textBox{
+        /* border: 1px solid red; */
+        padding: 10px 30px;
+        width: 100%;
+    }
+    .imgmain{
+        width: 100%;
+        margin-top: 34px;
+    }
+    .imgBox{
+        /* border: 1px solid blue; */
+        padding: 10px 10px;
+        width: 372px;
+    }
+    .imgBox h2{
+        padding: 0 20px;
+    }
+    .imgPart{
+        margin-top: -40px;
+    }
+    .tobe{
+        padding: 0 20px !important;
+    }
+    .boxText p {
+            /* font-size: 10    px; */
+            justify-content: center;
+    }
+
+}

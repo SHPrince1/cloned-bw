@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/navbar';
 import TopNav from './components/topNav';
 import Home from './pages/home';
+import AboutUs from './pages/aboutus';
 
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
     <Navbar />
     <Routes>
        <Route  path='/' exact element={<Home />} />
-        {/* <Route path='/about' element={<About/>} />
-        <Route path='/contact' element={<Contact/>} />
+        <Route path='/aboutus' element={<AboutUs/>} />
+        {/* <Route path='/contact' element={<Contact/>} />
         <Route path='/blog' element={<Blog/>} />
         <Route path='/giving' element={<Giving />} />
         <Route path='/about-us' element={<AboutUs />} />

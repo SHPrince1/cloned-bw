@@ -26,21 +26,21 @@ const Navbar = () => {
             </li>
 
             <div className={NavStyle.dropDown}>
-              <a href="/" className={NavStyle.subMenu}>
+              <a href="/aboutus" className={NavStyle.subMenu}>
                 WHO WE ARE
               </a>
               <div className={NavStyle.dropdownContent}>
                 <a className={NavStyle.dropdownLinks} href="/">
-                  Link 1
+                 WHO WE ARE
                 </a>
                 <a className={NavStyle.dropdownLinks} href="/">
-                  Link 2
+                 THE BOARD
                 </a>
                 <a href="/" className={NavStyle.dropdownLinks}>
-                  Link 3
+                  MANAGEMENT TEAM
                 </a>
                 <a href="/" className={NavStyle.dropdownLinks}>
-                  Link 4
+                 COPORATE SOCIAL RESPONSOBILITY
                 </a>
               </div>
             </div>
